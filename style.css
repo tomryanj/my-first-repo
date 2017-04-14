@@ -1,0 +1,74 @@
+body {
+  background-color: #000000;
+  height: 100%;
+  font-family: 'Trade Winds';
+}
+#contact {
+  display:block;
+  background-color: #0066ff;
+  /*width:25%;*/
+  font-family: 'Trade Winds';
+}
+nav {
+  background-color:#cc00cc;
+}
+img {
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 10px;
+}
+a {
+  color: #00ff00;
+}
+a:hover {
+  background-color: #ffffff;
+  color: #0000ff;
+
+}
+h1 {
+  color: #ffff00;
+  text-align: center;
+}
+p {
+  color: #ffff00;
+  text-align:center;
+}
+#left {
+  color:#ffff00;
+  text-align:left;
+}
+li {
+  color: #ffff00;
+}
+form {
+  display:table;
+  margin:0 auto;
+  width:25%;
+}
+button {
+  font-family: 'Trade Winds';
+
+}
+table {
+  display:table;
+  margin:0 auto;
+  background-color:#0047b3;
+}
+#mailto {
+  background-color:#0047b3;
+}
+#InputText {
+  border:2px solid #ffff00;
+  display:block;
+  width:50%;
+  margin:0 auto;
+  background-color:#808080;
+  color:#ffff00;
+  font-family: 'Trade Winds';
+}
+#InputDiv {
+  text-align:center;
+}
+#OutputDiv {
+  text-align:center;
+}

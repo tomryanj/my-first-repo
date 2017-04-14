@@ -1,0 +1,51 @@
+<html>
+  <head>
+   <title>Thomas Ryan - Portfolio</title>
+   <link href='//fonts.googleapis.com/css?family=Trade Winds' rel='stylesheet'>
+   <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+    <ul>
+      <li>Portfolio Website
+        <ol>
+          <li>
+            <p id="left">
+              This is my first website created from scratch using HTML5
+            </p>
+          </li>
+          <li>
+            <p id="left">
+              Updated website styling using CSS3
+            </p>
+          </li>
+          <li>
+            <p id="left">
+              Updated website functionality using Javascript
+            </p>
+          </li>
+        </ol>
+      </li>
+    </ul><br><br>
+    <p>Input Text to find word statistics</p>
+    <div id="InputDiv">
+     <textarea id="InputText" rows="5" cols="100">
+
+     </textarea>
+     <button onclick="TextStats(InputText.value)">Submit</button>
+     <button onclick="ClearText()">Clear</button>
+    </div>
+    <div id="OutputDiv">
+      <p id="OutStat"></p>
+    </div><br><br>
+    <footer>
+      <a href="https://www.linkedin.com/in/thomas-ryan-08423b4/">LinkedIn</a>
+    </footer>
+    <script type="text/javascript" src="script.js" ></script>
+  </body>
+</html>
